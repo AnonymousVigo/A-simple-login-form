@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="design">
+            <img src="img/px3.jpg" alt="">
+            <div class="overlay"></div>
+        </div>
+        <div class="login-form">
+            <div class="img">
+                <img src="img/user.svg" alt="">
+            </div>
+            <div class="form-container">
+                <h1 class="caption">Login</h1>
+                <form action="" method="">
+                    <div class="input-container">
+                        <label for="username" class="label" id="userNameLabel">Username</label>
+                        <div class="input-area">
+                            <input type="text" name="username" id="userName" class="input" placeholder="username"
+                                data-target="userNameLabel" autofocus>
+                        </div>
+                    </div>
+                    <div class="input-container">
+                        <label for="password" class="label" id="passwordLabel">Password</label>
+                        <div class="input-area">
+                            <input type="password" name="password" id="password" class="input" placeholder="password"
+                                data-target="passwordLabel">
+                            <div class="show-hide" id="">
+                                <input type="checkbox" name="" id="eyeLids" data-eye2="eyeSlash" data-eye="eye"
+                                    data-target="password">
+                                <img src="img/eye-slash.svg" alt="" id="eyeSlash" class="eye-slash show">
+                                <img src="img/eye.svg" alt="" id="eye" class="eye">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input-container input-control">
+                        <div class="input-area">
+                            <input type="submit" value="Login" name="submit" id="submit" class="button">
+                        </div>
+                    </div>
+                    <div class="input-container">
+                        <label for="remember-me" class="label label-control" id="rememberMeLabel">Remember me</label>
+                        <input type="checkbox" id="checkbox">
+                    </div>
+                    <div class="input-container">
+                        <a href="#" class="label label-control forgotten" id="rememberMeLabel">Forgotten
+                            password&quest;</a>
+                        <label for="login-opt" class="label label-control" id="rememberMeLabel">login with
+                            &rArr;</label>
+                        <div class="links">
+                            <a href="#"><img src="img/fb.svg" alt=""></a>
+                            <a href="#"><img src="img/ig.svg" alt=""></a>
+                            <a href="#"><img src="img/envelope.svg" alt=""></a>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2022, by Vigo</p>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
